@@ -1,8 +1,12 @@
-import wx
-from file_reader import FileReader
-from positioning_data_reader import PositioningDataReader
-from region_prediction import mine_and_predict_region
 from typing import Tuple
+
+import wx
+
+from apriori_prediction.region_prediction import apriori, mine_and_predict_region
+from positioning_data_creation.file_reader import FileReader
+from positioning_data_creation.positioning_data_reader import PositioningDataReader
+
+association_rule_tree=None  # 存储关联规则的树形结构
 
 app=wx.App()
 win=wx.Frame(None,title="单人消费者预测模拟")
@@ -11,9 +15,9 @@ bkg=wx.Panel(win)
 
 st_support=wx.StaticText(bkg,label="Apriori支持度（整数）：")
 st_confidence=wx.StaticText(bkg,label="Apriori置信度：50%")
-btn_load_positioning_data=wx.Button(bkg,label="打开定位记录文件")
+btn_load_positioning_data=wx.Button(bkg,label="打开并挖掘定位记录")
 btn_load_motion_data=wx.Button(bkg,label="打开行为动作记录文件")
-tc_support_input=wx.TextCtrl(bkg,value="0")
+tc_support_input=wx.TextCtrl(bkg,value="1")
 slider_confidence=wx.Slider(bkg,style=wx.SL_MIN_MAX_LABELS,size=(420,0),value=50)
 
 st_input_region_seq=wx.StaticText(bkg,label="输入模拟区域序列，区域用“-”隔开：")
@@ -62,25 +66,31 @@ vbox.Add(hbox6,proportion=1,flag=wx.ALL|wx.EXPAND,border=20)
 
 bkg.SetSizer(vbox)
 
-def func_change_slider(event):
+def func_on_change_slider(event):
     st_confidence.SetLabelText("Apriori置信度："+str(slider_confidence.GetValue())+"%")
 
-def func_load_positioning_data(event):
+def func_on_load_positioning_data(event):
     openFileDialog = wx.FileDialog(bkg,style=wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
     if openFileDialog.ShowModal() == wx.ID_CANCEL:
         return
     file_path=openFileDialog.GetPath()
     with open(file_path,"r",True) as positioning_file:
         data_set = PositioningDataReader(FileReader(positioning_file)).get_data_set()
-    result: Tuple[Tuple[int],float]=mine_and_predict_region(data_set,
-                            int(tc_support_input.GetValue()),
-                            slider_confidence.GetValue()/100,
-                            [int(i) for i in tc_input_region_seq.GetValue().split("-")],
-                            int(tc_forward_predict_num.GetValue()))
-    result_area.WriteText(str(result))
+    result_area.WriteText("成功打开定位记录文件，正在进行关联规则挖掘...\n")
+    global association_rule_tree
+    association_rule_tree=apriori(data_set,int(tc_support_input.GetValue()),slider_confidence.GetValue()/100)
+    result_area.WriteText("关联规则挖掘成功，已生成树形存储结构，可以开始进行预测。\n")
 
-slider_confidence.Bind(wx.EVT_SLIDER,func_change_slider)
-btn_load_positioning_data.Bind(wx.EVT_BUTTON,func_load_positioning_data)
+def func_on_predict(event):
+    result: Tuple[Tuple[int], float] = mine_and_predict_region(association_rule_tree,
+                                                               [int(i) for i in
+                                                                tc_input_region_seq.GetValue().split("-")],
+                                                               int(tc_forward_predict_num.GetValue()))
+    result_area.WriteText("已经过区域序列："+str(tc_input_region_seq.GetValue())+"。预测结果："+str(result[0])+"。置信度："+str(result[1])+"。\n")
+
+slider_confidence.Bind(wx.EVT_SLIDER,func_on_change_slider)
+btn_load_positioning_data.Bind(wx.EVT_BUTTON,func_on_load_positioning_data)
+btn_predict.Bind(wx.EVT_BUTTON,func_on_predict)
 
 win.Show()
 app.MainLoop()

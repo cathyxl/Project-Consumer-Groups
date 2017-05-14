@@ -1,5 +1,7 @@
 from typing import List
-from file_reader import FileReader
+
+from positioning_data_creation.file_reader import FileReader
+
 
 class PositioningDataReader:
     def __init__(self,new_file_reader: FileReader):

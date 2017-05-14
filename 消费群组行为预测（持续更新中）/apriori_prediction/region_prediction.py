@@ -1,6 +1,6 @@
-from apriori import apriori
+from apriori_prediction.apriori import apriori
 
-def mine_and_predict_region(list__data_set,int__minsup,int__minconf,list__region_seq,int__max_forward_num):
+def mine_and_predict_region(association_rule_tree,list__region_seq,int__max_forward_num):
     stop_flag = False
 
     def predict_region(list__region_seq,int__max_forward_num,Tree__rules):
@@ -38,4 +38,4 @@ def mine_and_predict_region(list__data_set,int__minsup,int__minconf,list__region
         return list__rules[0] if len(list__rules)!=0 else None
 
 
-    return predict_region(list__region_seq,int__max_forward_num,apriori(list__data_set,int__minsup,int__minconf))
+    return predict_region(list__region_seq,int__max_forward_num,association_rule_tree)
