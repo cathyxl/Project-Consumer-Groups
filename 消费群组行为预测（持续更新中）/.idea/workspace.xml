@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b9fdf9-4fc4-4151-9ac2-3fba0c9cfbd3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/positioning_data_read/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/region_predict_simu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wx_simulator.py" afterPath="$PROJECT_DIR$/wx_simulator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/positioning_data_creation/file_reader.py" afterPath="$PROJECT_DIR$/positioning_data_read/file_reader.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/positioning_data_creation/positioning_data_reader.py" afterPath="$PROJECT_DIR$/positioning_data_read/positioning_data_reader.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -424,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494747156981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成定位记录生成器、定位记录的读取、关联规则挖掘和轨迹预测模拟">
+      <created>1494749374788</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494749374788</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
