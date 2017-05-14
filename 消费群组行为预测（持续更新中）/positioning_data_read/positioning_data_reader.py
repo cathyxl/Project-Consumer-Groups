@@ -1,6 +1,6 @@
 from typing import List
 
-from positioning_data_creation.file_reader import FileReader
+from positioning_data_read.file_reader import FileReader
 
 
 class PositioningDataReader:

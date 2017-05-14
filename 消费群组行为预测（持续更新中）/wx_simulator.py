@@ -3,8 +3,8 @@ from typing import Tuple
 import wx
 
 from apriori_prediction.region_prediction import apriori, mine_and_predict_region
-from positioning_data_creation.file_reader import FileReader
-from positioning_data_creation.positioning_data_reader import PositioningDataReader
+from positioning_data_read.file_reader import FileReader
+from positioning_data_read.positioning_data_reader import PositioningDataReader
 
 association_rule_tree=None  # 存储关联规则的树形结构
 
