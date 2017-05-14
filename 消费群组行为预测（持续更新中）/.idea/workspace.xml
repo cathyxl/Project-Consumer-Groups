@@ -2,8 +2,216 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b9fdf9-4fc4-4151-9ac2-3fba0c9cfbd3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/BehaviorPredictionOfConsumerGroups.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/shang.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apriori_prediction/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apriori_prediction/apriori.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apriori_prediction/region_prediction.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/positioning_data_creation/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/positioning_data_generator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/positioning_data_read/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/positioning_data_read/file_reader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/positioning_data_read/positioning_data_reader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simulation_data/historical_positioning_data.hpd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simulation_data/path_setting.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wifi_positioning.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wx_simulator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Android Sensors.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/DBAD过程.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/DBADH.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/DBADH1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/DBADP.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/DBADP1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data1_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data1_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data1_3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data1_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data2_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data2_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data2_3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data2_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data3_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data3_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data3_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data4_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data4_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data4_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data5_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data5_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data5_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data6_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data6_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/data6_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/output.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/outputP.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/report.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D1_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D1_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D2_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D2_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D3_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D3_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D4_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D4_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D5_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D5_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D6_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/D6_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P1_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P1_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P2_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P2_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P3_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P3_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P4_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P4_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P5_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P5_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P6_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Python_DBAD代码/res_fig/P6_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Von分布图像.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/Von分布拟合图像(2).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/交互动作图.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/0609JD函数是abs（p-q）,比较function也有~.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/R程序.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/data1-1得出的所有参数.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/利用高斯混合模型实现概率密度函数逼近.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/基于EM算法的模型聚类的研究及应用.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/复杂网络中心度计算 word版（付瑜珂）.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/有log结果与log得到的准确度.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/混合von+Mises模型的参数估计.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/混合高斯模型程序及运行结果.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/程序.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/简化程序-分组，高斯，JD。.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/高斯分布和von Mises分布的相关整理（付瑜珂）.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/付瑜珂/高斯分布和von.Mises分布.ppt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/DBADP1_R1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/DBADP1_R2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data1_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data1_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data1_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data2_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data2_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data2_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data3_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data3_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data3_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data4_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data4_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data4_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data5_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data5_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data5_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data6_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data6_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/数据集/data6_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/无log结果.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张泽宇/有log结果.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张闵算法/cluster.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张闵算法/clustering1（张闵）.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张闵算法/clustering（张闵）.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张闵算法/precsion&amp;recall&amp;F1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张闵算法/例子(zhang).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/张闵算法/冯米塞斯分布.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/杨珺/GMM.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/杨珺/MobileCons.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/函数拟合/杨珺/mclust.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/DBAD相关/挽手勾肩主被.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/DBADH.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/DBADH1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/DBADP.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/OriginDBAD.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/algorithms/Accuracy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/algorithms/DBSCAN.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/algorithms/DJcluster.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/algorithms/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/behavior/BehaviorAccuracy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/behavior/BehaviorClassifier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/behavior/EditDistance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/behavior/FeatureExtract.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/behavior/LibsvmTest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/behavior/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/behavior/svm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/behavior/svmutil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/cross_correlation/CrossCorrelation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/cross_correlation/WinCorrelation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/cross_correlation/WinMeanCorr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/cross_correlation/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/dbad/NDBAD.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/dbad/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/groundtruth/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/groundtruth/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/groundtruth/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/preprocessing/Counter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/preprocessing/PreProcessing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/preprocessing/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/utils/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/GroupDetection/utils/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/大学生创新创业/201610486094-中期报告.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/大学生创新创业/201610486094-初期报告.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/大学生创新创业/大型商场中的移动群组消费--大学生创新创业.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/大学生创新创业/移动群组消费.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/大厅坐标示意图.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/大厅坐标示意图（四个接入点）.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/手机室内地磁定位总结.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/无线坐标.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/无线指纹（6个接入点）.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/无线指纹（四个接入点）（实验室大厅2016.7.27）.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/An Improved Location Estimation Method for Wifi Fingerprintbased.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/KWKLF算法（位置指纹识别改善算法）.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/result.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/result1(坐标点).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/result1(实际位置).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/result1_1(K = 5 ,10 , ... , 40).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/result1_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/result2_1(K = 5 ,10 , ... ,40).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/result2_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/新建文件夹.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/杨耀航/路劲位置.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/磁传感器确定位置.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/顾岩/Indoor positioning system for bluetooth cell phone.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/顾岩/一种利用智能手机传感器实现地磁室内定位（专利）.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/顾岩/一种基于安卓的蓝牙室内定位系统设计与实现.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/顾岩/手机室内地磁定位总结.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/顾岩/手机室内定位总结(1).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/顾岩/相关地磁匹配定位技术-刘飞.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/定位相关/顾岩/蓝牙室内定位关键技术的研究与实现.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/4种聚类算法的准确度分析结果.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/chart说明文档.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/kmeans算法演示文档--黎良.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/参数与类列表.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/异步消息传递说明文档.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/模拟器初始说明文档.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/模拟器安装指南.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/模拟器讲解PPT.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/移动消费小组项目介绍（修订版）.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/群体性消费（胡浙捷）.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/群组消费模拟_分组准确度分析文档.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/IIKI2015_submission_38.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/eswa2009-park(simple kmedoids).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/hartigan_1979_kmeans.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/k-medoids.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/positionclust1.r" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/positionclust2.r" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/positionclust3.r" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/positionclust4.r" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/positionclust5.r" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/移动消费小组项目介绍（修订版）.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/移动群组消费现阶段工作说明.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/算法介绍.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/rcode_file/算法演示文档.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/动态聚类法.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/聚类实现（黎良）/聚类实现相关代码和文档.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../移动消费相关文档/模拟器相关文档/运动模型以及R与JAVA对接.docx" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -426,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494749374788</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成定位记录生成器、定位记录的读取、关联规则挖掘和轨迹预测模拟">
+      <created>1494749779753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1494749779753</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
