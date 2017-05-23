@@ -8,7 +8,7 @@ from positioning_data_read.file_reader import FileReader
 from positioning_data_read.positioning_data_reader import PositioningDataReader
 from motion_state_data_read.motion_state_data_reader import MotionStateDataReader
 from motion_state_prediction.motion_state_prediction import predict_motion_state
-from wifi_positioning import get_mall_wifi_db,position_it
+from wifi_positioning.wifi_positioning import get_mall_wifi_db,position_it
 from random import randint
 
 association_rule_tree=None  # 存储关联规则的树形结构
