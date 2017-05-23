@@ -85,7 +85,16 @@ def _determine_locating_region(pos_fin: _PositioningFingerprint,ref_point_db: _R
     result=list_[0][0]
     return result
 
-shopping_mall = _ShoppingMall("simulation_data\\wifi_setting.config")
-ref_point_db = _ReferencePointDatabase(shopping_mall)
-positioning_fingerprint = _PositioningFingerprint((13,7),shopping_mall)
-print(_determine_locating_region(positioning_fingerprint,ref_point_db))
+def get_mall_wifi_db(wifi_ap_config_path: str):
+    shopping_mall = _ShoppingMall(wifi_ap_config_path)
+    return (shopping_mall,_ReferencePointDatabase(shopping_mall))
+
+def position_it(point: Tuple[int, int],shopping_mall,ref_point_db):
+    positioning_fingerprint = _PositioningFingerprint(point, shopping_mall)
+    return _determine_locating_region(positioning_fingerprint, ref_point_db)
+
+if __name__=="__main__":
+    shopping_mall = _ShoppingMall("simulation_data\\wifi_setting.config")
+    ref_point_db = _ReferencePointDatabase(shopping_mall)
+    positioning_fingerprint = _PositioningFingerprint((30,22),shopping_mall)
+    print(_determine_locating_region(positioning_fingerprint,ref_point_db))

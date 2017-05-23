@@ -102,6 +102,7 @@ def apriori(data_set,min_support,min_confidence):
             def __init__(self):
                 self.storeroom={}
                 self.int__max_consequence_len=0
+
             def add_rule_consequence(self,tuple__consequence,float__confidence):
                 if len(tuple__consequence)>self.int__max_consequence_len:
                     self.int__max_consequence_len=len(tuple__consequence)
