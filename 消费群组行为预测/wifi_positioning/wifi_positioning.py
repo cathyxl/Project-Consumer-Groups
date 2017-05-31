@@ -39,10 +39,10 @@ class _Fingerprint:
 
     @classmethod
     def fingerprint_distance(cls,f1: "_Fingerprint",f2: "_Fingerprint") -> float:
-        fingerprint_distance: float=0
+        temp: float=0
         for index in range(len(f1.fingerprint)):
-            fingerprint_distance+=sqrt((f1.fingerprint[index]-f2.fingerprint[index])**2)
-        return fingerprint_distance
+            temp+=(f1.fingerprint[index]-f2.fingerprint[index])**2
+        return sqrt(temp)
 
 class _ReferencePointFingerprint(_Fingerprint):
     def __init__(self,position: Tuple[float,float],shopping_mall: _ShoppingMall,region_id: int):
@@ -77,6 +77,7 @@ def _determine_locating_region(pos_fin: _PositioningFingerprint,ref_point_db: _R
     ref_points_cmp.sort(key=lambda x:x[1])
     sub_cmp_list=ref_points_cmp[:16]
     sub_cmp_list=list(map(lambda x:x[0],sub_cmp_list))
+    #"""
     set_={x for x in sub_cmp_list}
     list_=[]
     for ele in set_:
@@ -84,6 +85,8 @@ def _determine_locating_region(pos_fin: _PositioningFingerprint,ref_point_db: _R
     list_.sort(key=lambda x:-x[1])
     result=list_[0][0]
     return result
+    #"""
+    #return sub_cmp_list[0]
 
 def get_mall_wifi_db(wifi_ap_config_path: str):
     shopping_mall = _ShoppingMall(wifi_ap_config_path)
@@ -94,7 +97,7 @@ def position_it(point: Tuple[int, int],shopping_mall,ref_point_db):
     return _determine_locating_region(positioning_fingerprint, ref_point_db)
 
 if __name__=="__main__":
-    shopping_mall = _ShoppingMall("simulation_data\\wifi_setting.config")
+    shopping_mall = _ShoppingMall("..\\simulation_data\\wifi_setting.config")
     ref_point_db = _ReferencePointDatabase(shopping_mall)
     positioning_fingerprint = _PositioningFingerprint((30,22),shopping_mall)
     print(_determine_locating_region(positioning_fingerprint,ref_point_db))

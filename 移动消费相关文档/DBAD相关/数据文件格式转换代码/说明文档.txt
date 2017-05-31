@@ -1,0 +1,32 @@
+accele_file_convert.py
+        This Python file is used to convert the old log files of acceleration to the latest log files with new
+    acceleration data format.
+
+        Noticed that the old log files have data format as following:
+            person_id, time_step_window, acceleration
+        Each old file contains all records of all people in exact one experiment.
+        The old file name is like "data2_1.csv" in which the first digit "2" denotes the id of experiment while the
+    second means that it is the acceleration data that are stored in the file.
+
+        And the new log files have data format like this:
+            time_step_window, acceleration_in_x, acceleration_in_y, acceleration_in_z
+        Each new type file contains all records of one person in one experiment.
+        The name of this kind of file is like "2.1_accele.csv" in which digit "2" denotes the experiment id and the
+    other digit "1" denotes the person id.
+
+        The old log files need to be placed in the directory "input" which is in the same directory with this Python
+    file. And the output files will be output into the directory "output" which is also in the same directory with this
+    Python file.
+
+
+dbad.py
+        TYPEFEATURE = 1 means that acceleration data will be processed.
+        TYPEFEATURE = 2 means that orientation data will be processed.
+        TYPEFEATURE = 3 means that acceleration data will be processed and Mclust will be used during processing.
+
+        对于TYPEFEATURE = 3，程序中使用的函数为jdFuncForMclust。该函数的一个type参数表示，值为1则使用最初的Mclust积分方法，值为2使用
+    参考了jdGaaussian函数的优化积分方法，值为3将使用包含蒙特卡罗积分的Mclust方法。
+
+        LENWINDOW对于TYPEFEATURE=1，使用15，对于TYPEFEATURE=2，至少使用5。
+        LENFILTER对于TYPEFEATURE=1使用1，对于TYPEFEATURE=2，要使用最优的值。
+        实际上，LENFILTER=1表明不使用平滑操作。在TYPEFEATURE=3时，若想使用平化操作，可将LENFILTER的值设定为大于1的一个最优值。

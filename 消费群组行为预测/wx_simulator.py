@@ -176,6 +176,8 @@ def on_btn_wifi_start_simul_click(event):
         y = randint(0, 25)
         if 10<=x<=25 and 10<=y<=20:
             continue
+        if x%5==0 or y%5==0:
+            continue
         region_id=(y//5)*7+x//5+1
         predict_region_id=position_it((x,y),shopping_mall,ref_point_db)
         if region_id==predict_region_id:
@@ -210,7 +212,7 @@ vbox_wifi.Add(hbox_wifi_3,proportion=1,flag=wx.EXPAND)
 
 wifi_bkg.SetSizer(vbox_wifi)
 
-notebook.AddPage(wifi_bkg," WiFi定位模拟测准 ")
+notebook.AddPage(wifi_bkg," WiFi定位测准模拟 ")
 notebook.AddPage(bkg," 预测模拟 ")
 win.Show()
 notebook.ChangeSelection(1)
