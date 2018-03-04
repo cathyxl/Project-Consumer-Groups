@@ -1,0 +1,335 @@
+repeatition:1
+KNN:
+size:1002
+error number:881
+accuracy:0.1207584830339321
+
+RF:
+size:1002
+error number:869
+accuracy:0.1327345309381237
+
+repeatition:2
+KNN:
+size:1002
+error number:865
+accuracy:0.13672654690618757
+
+RF:
+size:1002
+error number:850
+accuracy:0.15169660678642716
+
+repeatition:3
+KNN:
+size:1002
+error number:850
+accuracy:0.15169660678642716
+
+RF:
+size:1002
+error number:835
+accuracy:0.16666666666666663
+
+repeatition:4
+KNN:
+size:1002
+error number:860
+accuracy:0.14171656686626743
+
+RF:
+size:1002
+error number:827
+accuracy:0.17465069860279436
+
+repeatition:5
+KNN:
+size:1002
+error number:843
+accuracy:0.1586826347305389
+
+RF:
+size:1002
+error number:825
+accuracy:0.17664670658682635
+
+repeatition:6
+KNN:
+size:1002
+error number:805
+accuracy:0.19660678642714569
+
+RF:
+size:1002
+error number:779
+accuracy:0.22255489021956087
+
+repeatition:7
+KNN:
+size:1002
+error number:802
+accuracy:0.19960079840319356
+
+RF:
+size:1002
+error number:769
+accuracy:0.2325349301397206
+
+repeatition:8
+KNN:
+size:1002
+error number:796
+accuracy:0.2055888223552894
+
+RF:
+size:1002
+error number:754
+accuracy:0.24750499001996007
+
+repeatition:9
+KNN:
+size:1002
+error number:791
+accuracy:0.21057884231536927
+
+RF:
+size:1002
+error number:724
+accuracy:0.2774451097804391
+
+repeatition:10
+KNN:
+size:1002
+error number:776
+accuracy:0.22554890219560875
+
+RF:
+size:1002
+error number:727
+accuracy:0.27445109780439125
+
+repeatition:101111
+KNN:
+size:100
+error number:35
+accuracy:0.65
+
+RF:
+size:100
+error number:15
+accuracy:0.85
+
+repeatition:1111111111
+KNN:
+size:100
+error number:27
+accuracy:0.73
+
+RF:
+size:100
+error number:7
+accuracy:0.9299999999999999
+
+repeatition:100
+KNN:
+size:1000
+error number:791
+accuracy:0.20899999999999996
+
+RF:
+size:1000
+error number:731
+accuracy:0.269
+
+repeatition:100
+KNN:
+size:100
+error number:27
+accuracy:0.73
+
+RF:
+size:100
+error number:7
+accuracy:0.9299999999999999
+
+repeatition:9-90
+KNN:
+size:90
+error number:28
+accuracy:0.6888888888888889
+
+RF:
+size:90
+error number:9
+accuracy:0.9
+
+repeatition:9-900
+KNN:
+size:900
+error number:716
+accuracy:0.20444444444444443
+
+RF:
+size:900
+error number:655
+accuracy:0.27222222222222225
+
+repeatition:10000000
+KNN:
+size:1002
+error number:0
+accuracy:0.1467065868263473
+
+RF:
+size:1002
+error number:0
+accuracy:0.17165668662674652
+
+repeatition:1000
+KNN:
+size:1000
+correct number:209
+accuracy:0.209
+
+RF:
+size:1000
+correct number:269
+accuracy:0.269
+
+repeatition:1000
+repeatition:1000
+KNN:
+size:1000
+correct number:209
+accuracy:0.209
+
+RF:
+size:1000
+correct number:269
+accuracy:0.269
+
+repeatition:1000
+KNN:
+size:1000
+correct number:209
+accuracy:0.209
+
+RF:
+size:1000
+correct number:272
+accuracy:0.272
+
+repeatition:******
+KNN:
+size:1000
+correct number:100
+accuracy:0.1
+
+RF:
+size:1000
+correct number:98
+accuracy:0.098
+
+repeatition:******
+KNN:
+size:1000
+correct number:800
+accuracy:0.8
+
+RF:
+size:1000
+correct number:1000
+accuracy:1.0
+
+repeatition:******
+KNN:
+size:100
+correct number:80
+accuracy:0.8
+
+RF:
+size:100
+correct number:100
+accuracy:1.0
+
+repeatition:******
+KNN:
+size:50
+correct number:40
+accuracy:0.8
+
+RF:
+size:50
+correct number:50
+accuracy:1.0
+
+repeatition:1-1000
+KNN:
+size:1002
+correct number:892
+accuracy:0.8902195608782435
+
+RF:
+size:1002
+correct number:1002
+accuracy:1.0
+
+repeatition:1-1000
+KNN:
+size:1002
+correct number:892
+accuracy:0.8902195608782435
+
+RF:
+size:1002
+correct number:1002
+accuracy:1.0
+
+repeatition:new-svm
+KNN:
+size:1002
+correct number:892
+accuracy:0.8902195608782435
+
+RF:
+size:1002
+correct number:1002
+accuracy:1.0
+
+SVM:
+size:1002
+correct number:116
+accuracy:0.1157684630738523
+
+repeatition:new-svm
+KNN:
+size:1002
+correct number:892
+accuracy:0.8902195608782435
+
+RF:
+size:1002
+correct number:1002
+accuracy:1.0
+
+SVM:
+size:1002
+correct number:116
+accuracy:0.1157684630738523
+
+repeatition:new-svm
+KNN:
+size:1002
+correct number:892
+accuracy:0.8902195608782435
+
+RF:
+size:1002
+correct number:1002
+accuracy:1.0
+
+SVM:
+size:1002
+correct number:116
+accuracy:0.1157684630738523
+
