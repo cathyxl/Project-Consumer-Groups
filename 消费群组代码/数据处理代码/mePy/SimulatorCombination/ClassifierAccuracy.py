@@ -1,10 +1,10 @@
 import csv
 
 
-PATH = 'E:\\学校文件\\项目\\实验室\\python代码\\mePy\\data\\'
+PATH = 'E:\\学校文件\\项目\\实验室\\git\\Project-Consumer-Groups\\消费群组代码\\数据处理代码\\mePy\\data\\'
 TIMES = [1]
-USRS = [1]
-classifiers = ['KNN', 'RF', 'SVM']
+USRS = [0,1,2,3,4,5,6,7,8,9]
+classifiers = ['KNN', 'RF']
 
 def read_actionlist(src):
     srcfile = open(src, 'r')
@@ -35,10 +35,10 @@ for time in TIMES:
     for user in USRS:
         tarfile = PATH + "cmp_accuracy\\" + "cmp_accuracy.csv"
         tar = open(tarfile, 'a')
-        tar.write("repeatition:new-svm\n")
+        tar.write("******ctime:" + str(time) + "**user:" + str(user) + "******\n")
         for classifier in classifiers:
             actionlist_srcfile = PATH + "action_data\\" + str(time) + "_" + str(user) + ".csv"
-            classified_srcfile = PATH + "classified_result\\action_" + classifier + "_" + str(user) + ".csv"
+            classified_srcfile = PATH + "classified_result\\action_" + classifier + "_" + str(time) + "_" + str(user) + ".csv"
             #tarfile = PATH + "classified_accuracy\\" + classifier + "_" + str(user) + ".csv"
 
             actionlist = read_actionlist(actionlist_srcfile)

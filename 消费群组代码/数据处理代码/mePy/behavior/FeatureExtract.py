@@ -3,7 +3,7 @@ import numpy as np
 from datetime import datetime
 from itertools import chain
 STYPE = ['accele','angular','magne','orien']
-PATH = 'E:\\学校文件\\项目\\实验室\\python代码\\mePy\\data\\'  #PATH = 'D:\\Consume Group\\experiment\\csv_12_18\\'
+PATH = 'E:\\学校文件\\项目\\实验室\\git\\Project-Consumer-Groups\\消费群组代码\\数据处理代码\\mePy\\data\\'
 NUMUSER = 11
 # time=1
 # START='2016/12/18 13:58:59.000'
@@ -390,13 +390,16 @@ WINSIZE = 2000
 WINNUM = 32
 
 
-for t in [1]:     #[3, 4, 7, 10, 11, 12]:
-    tarfile = open(PATH+'processed_feature\\'+str(t)+'_features.csv','a')
-    for u in [1]:    #range(1,12):
+for t in [1]:
+    for u in [0,1,2,3,4,5,6,7,8,9]:    #range(1,12):
         srcpath = PATH+'composed_data\\'+str(t)+'.'+str(u)+'_'+sensortype+'.csv'
+        tarfile = open(PATH + 'processed_feature\\' + str(t) + '.' + str(u) + '_features.csv', 'a')
         print(srcpath)
         makeseqfeature(u, WINSIZE, srcpath, tarfile)
-    tarfile.close()
+        tarfile.close()
+
+
+
 
 
 # # tarfile=open(PATH+'train_processed\\train_features.csv','a')

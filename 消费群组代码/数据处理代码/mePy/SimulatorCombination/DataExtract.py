@@ -2,9 +2,9 @@ import csv
 
 '此py的功能是从训练集数据文件中部，抽取2秒的数据，并存放于meta_behavior中'
 
-PATH = 'E:\\学校文件\\项目\\实验室\\python代码\\mePy\\data\\'
+PATH = 'E:\\学校文件\\项目\\实验室\\git\\Project-Consumer-Groups\\消费群组代码\\数据处理代码\\mePy\\data\\'
 USRS = [1]    #用户序号
-BEHAVIORS = [1,2,3,4,5,6,7,8,9,10]    #1到10为行为动作序号
+BEHAVIORS = [0,1,2,3,4,5,6,7,8,9]    #1到10为行为动作序号
 STYPE = ['accele','angular','magne','orien']    #数据种类
 
 '打开源数据文件，提取中部的2秒数据，写入datamap中'

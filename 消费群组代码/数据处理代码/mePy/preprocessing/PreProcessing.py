@@ -56,7 +56,7 @@ END='2016/12/18 14:49:00.000'
 
 usrs=[1,2,3,4,5,6,7,8,9,10,11]
 STYPE = ['accele','angular','magne','orien']
-PATH = 'E:\\学校文件\\项目\\实验室\\python代码\\mePy\\data\\'    #'D:\\Consume Group\\experiment\\csv_12_18\\'
+PATH = 'E:\\学校文件\\项目\\实验室\\git\\Project-Consumer-Groups\\消费群组代码\\数据处理代码\\mePy\\data\\'
 down = 1
 small = []
 big = []
@@ -213,7 +213,7 @@ for i in usrs:
         if f1 == 0:
             fout = PATH+'dbad_processed\\' + str(time) + '.' + str(i) + '_accele.csv'
         else:
-            fout = PATH+'dbad_processed\\'+ str(time) + '.' + str(i) + '_orien.csv'
+            fout = PATH+'dbad_processed\\' + str(time) + '.' + str(i) + '_orien.csv'
         print(fout)
         pout = open(fout, 'w')
         tss = sorted(datamap[i].keys())

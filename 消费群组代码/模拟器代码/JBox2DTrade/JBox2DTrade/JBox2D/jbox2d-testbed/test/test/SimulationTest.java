@@ -90,7 +90,7 @@ public class SimulationTest extends TestbedTest {
 	 */
 	public static String FloderName = "time";
 
-	public int pgNum = 10;
+	public int pgNum = 2;
 	public int f = 80;
 	public float temp = 4f;// 存储人与人之间消息传递的最小值
 

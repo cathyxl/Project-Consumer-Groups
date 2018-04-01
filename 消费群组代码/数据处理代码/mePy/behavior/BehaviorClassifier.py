@@ -69,12 +69,13 @@ def transform_svm_data(train_file, svm_file):
 
 if __name__ == '__main__':
     TIMES = [1] #[3, 4, 7, 10, 11]  # 实验序号
-    PATH = 'E:\\学校文件\\项目\\实验室\\python代码\\mePy\\data\\'  #PATH = 'D:\\Consume Group\\experiment\\csv_12_18\\'
+    USERS = [0,1,2,3,4,5,6,7,8,9]
+    PATH = 'E:\\学校文件\\项目\\实验室\\git\\Project-Consumer-Groups\\消费群组代码\\数据处理代码\\mePy\\data\\'
     trainfile = PATH + 'train_processed\\train_feature_train_o.csv'  # 训练集数据
     svm_file = PATH + 'train_processed\\svm_feature_train_o.csv' #
     transform_svm_data(trainfile,svm_file)
-    test_classifiers = ['KNN', 'RF', 'SVM']
-    #test_classifiers = ['KNN', 'RF']
+    # test_classifiers = ['KNN', 'RF', 'SVM']
+    test_classifiers = ['KNN', 'RF']
     classifiers = {'KNN': knn_classifier,
                    'RF': random_forest_classifier,
                    'SVM': svm_classifier
@@ -84,32 +85,33 @@ if __name__ == '__main__':
     for classifier in test_classifiers:
         print('******************* %s ********************' % classifier)
         for time in TIMES:
-            testfile = PATH + 'processed_feature\\' + str(time) + '_features.csv'
-            writefile = PATH + 'classified_result\\action_'+classifier+'_'+str(time)+'.csv'
-            csvwriter = csv.writer(open(writefile, 'w', newline=''), delimiter=',')
-            testdata, ids, windows = read_test_data(testfile)
-            train_model = classifiers[classifier](train,labels)
-            testlabels = train_model.predict(testdata)
-            # if classifier == 'SVM':
-            #     transform_svm_data(trainfile, svm_file)
-            #     train_model = classifiers[classifier](svm_file)
-            #
-            # else:
-            #     train_model = classifiers[classifier](train, labels)
-            # if classifier == 'SVM':
-            #
-            #     testlabels,accuracy, p_val = svm_predict(labels, testdata, train_model)
-            #     print(testlabels)
-            # else:
-            #     testlabels = train_model.predict(testdata)
-            for i in range(len(testlabels)):
-                label = testlabels[i]
-                if label == 10:
-                    label = 0
-                csvwriter.writerow([str(ids[i]), str(windows[i]), str(int(label))])
-            # print(testlabels)
-            # for i in range(len(testdata)):
-                # label = int(train_model.predict(testdata[i]))
-                # if label == 10:
-                #     label = 0
-                # csvwriter.writerow([str(ids[i]), str(windows[i]), str(label)])
+            for user in USERS:
+                testfile = PATH + 'processed_feature\\' + str(time) + '.' + str(user) + '_features.csv'
+                writefile = PATH + 'classified_result\\action_'+classifier+'_'+str(time)+'_'+str(user)+'.csv'
+                csvwriter = csv.writer(open(writefile, 'w', newline=''), delimiter=',')
+                testdata, ids, windows = read_test_data(testfile)
+                train_model = classifiers[classifier](train,labels)
+                testlabels = train_model.predict(testdata)
+                # if classifier == 'SVM':
+                #     transform_svm_data(trainfile, svm_file)
+                #     train_model = classifiers[classifier](svm_file)
+                #
+                # else:
+                #     train_model = classifiers[classifier](train, labels)
+                # if classifier == 'SVM':
+                #
+                #     testlabels,accuracy, p_val = svm_predict(labels, testdata, train_model)
+                #     print(testlabels)
+                # else:
+                #     testlabels = train_model.predict(testdata)
+                for i in range(len(testlabels)):
+                    label = testlabels[i]
+                    if label == 10:
+                        label = 0
+                    csvwriter.writerow([str(ids[i]), str(windows[i]), str(int(label))])
+                # print(testlabels)
+                # for i in range(len(testdata)):
+                    # label = int(train_model.predict(testdata[i]))
+                    # if label == 10:
+                    #     label = 0
+                    # csvwriter.writerow([str(ids[i]), str(windows[i]), str(label)])

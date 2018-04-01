@@ -1,16 +1,17 @@
 import os
 import csv
 
-PATH = 'E:\\学校文件\\项目\\实验室\\python代码\\mePy\\data\\'
-USRS = [1]    #用户序号
+PATH = 'E:\\学校文件\\项目\\实验室\\git\\Project-Consumer-Groups\\消费群组代码\\数据处理代码\\mePy\\data\\'
+# USRS = [1]    #用户序号
 STYPE = ['accele','angular','magne','orien']    #数据种类
-CTIMES = []
-PEOPLES = []
+# CTIMES = []
+# PEOPLES = []
 sensortype = STYPE[0]
 
 def get_filenames(dirname):
     P = []
     T = []
+    print(os.walk(dirname))
     for root, dirs, files in os.walk(dirname):
         for file in files:
             if os.path.splitext(file)[1] == '.csv':
@@ -64,11 +65,11 @@ def write_data(tar, datamap, start):
     tarfile.close()
     return start
 
-def compose_data(actionlist, user):
+def compose_data(actionlist, time, user):
     cur_start = 0
     for actionid in actionlist:
-        meta_srcfile = PATH + "meta_behavior\\" + str(actionid) + "." + str(user) + "_" + sensortype + ".csv"
-        tarfile = PATH + "composed_data\\" + "1." + str(user) + "_" + sensortype + ".csv"
+        meta_srcfile = PATH + "meta_behavior\\" + str(actionid) + ".1" + "_" + sensortype + ".csv"
+        tarfile = PATH + "composed_data\\" + str(time) + "." + str(user) + "_" + sensortype + ".csv"
         datamap = read_metadata(meta_srcfile)
         cur_start = write_data(tarfile, datamap, cur_start)
         cur_start += 60
@@ -76,9 +77,9 @@ def compose_data(actionlist, user):
 
 
 dirname = PATH + "action_data"
-CTIMES, PEOPLES = get_filenames(dirname)
+CTIMES, USRS = get_filenames(dirname)
 for time in CTIMES:
     for user in USRS:
         actionlist_srcfile = PATH + "action_data\\" + str(time) + "_" + str(user) + ".csv"
         actitonlist = read_actionlist(actionlist_srcfile)
-        compose_data(actitonlist, user)
+        compose_data(actitonlist, time, user)

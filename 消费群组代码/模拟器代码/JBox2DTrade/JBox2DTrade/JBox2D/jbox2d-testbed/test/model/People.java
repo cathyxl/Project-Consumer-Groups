@@ -188,7 +188,7 @@ public class People {
 			Random random = new Random();
 			int action;
 			do {
-				action = random.nextInt(9);
+				action = random.nextInt(10);
 			}while(pre_action == action);
 			pre_action = action;
 			actionList.add(action);
